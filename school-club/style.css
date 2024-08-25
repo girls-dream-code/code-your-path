@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.club-list {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.club {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.club:hover {
+  transform: scale(1.02);
+}
+
+.club h2 {
+  margin: 0;
+  color: #007BFF;
+}
+
+.club p {
+  margin: 0.5rem 0 0;
+}
