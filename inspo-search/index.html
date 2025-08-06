@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Find Inspo for Nail Art</h1>
+    </header>
+
+    <main>
+        <section id="content-section" class="content-section">
+            <h2>Type in a theme and get nail art inspo</h2>
+          <div>
+            <input type="text" id="input-text" placeholder="Type here..." />
+            <button onclick="displayImage()">Submit</button>
+          </div>
+        </section>
+     
+      <section id="image-container" class="image-container">
+        <div>
+          <img id="result-image" src="https://api.backlinko.com/app/uploads/2024/07/reverse-image-search-blog-post-image.webp" alt="Result Image" />
+          <p id="result-text"></p>
+        </div>
+      </section>
+      
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

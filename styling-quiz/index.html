@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz with Conditional Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fun Quiz</h1>
+    </header>
+
+    <main>
+        <section id="quiz-section">
+            <h2>Take the Quiz!</h2>
+            <form id="quizForm">
+                <div class="question">
+                    <label>Aesthetic Question 1?</label>
+                    <select name="q1">
+                        <option value="">Select an answer</option>
+                        <option value="formal">I like to dress up</option>
+                        <option value="casual">I like to be comfortable</option>
+                        <option value="vintage">I like to do my own thing</option>
+                    </select>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="result-section" class="hidden">
+            <h2>Quiz Result</h2>
+            <img id="resultImage" src="https://areal.me/cover-images/aesthetic-quiz.png" alt="Quiz Result Image" />
+            <a id="resultLink" href="www.parks.com">Find out more</a>
+        </section>
+    </main>
+  
+  <!-- Trigger/Open The Modal -->
+
+      <div class="container">
+       <button id="myBtn">Open Modal</button>
+        <button id="myBtn2">Open Modal</button>
+        <button id="myBtn3">Open Modal</button>
+      </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="https://areal.me/cover-images/aesthetic-quiz.png" alt="Quiz Result Image" />
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+    <footer>
+        <p>&copy; 2024 Fun Quiz</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
